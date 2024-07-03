@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>                                          
 <manifest>                                                                      
-  <remote alias="origin" fetch="git@github.com:luckywang1103" name="origin"/>
-                                                                                
-  <project path="dir1" name="dir1.git" remote="origin" revision="master"/>
-  <project path="dir2" name="dir2.git" remote="origin" revision="master"/>
+    <remote alias="origin" fetch="git@github.com:luckywang1103" name="origin"/>
+    <project path="dir1" name="dir1.git" remote="origin" revision="master">
+        <linkfile src="readme.txt" dest="1.txt" />
+    </project>
+    <project path="dir2" name="dir2.git" remote="origin" revision="master"/>
 </manifest>
